@@ -1,0 +1,20 @@
+成绩查询实现过程：
+ 1.模拟登录
+	成功的登录后返回响应头中 包含Transfer-Encoding  失败的则没有，这个可以作为登录成功与失败的依据
+	登录成功后的所有操作带上jessionid就可以进行下一步操作了
+   
+ 2.获取cookie
+	压根没有保存cookie！！！！
+
+ 3.创建查询表单
+	
+ 4.提交表单数据
+
+
+ 5.显示数据
+ 	获取响应的相应体
+        首先这个ID=PageNavigation=对应的div中包含成绩的条目数
+	根据条目数解析
+	table中的tr元素包含一个id ，id是根据记录的条数动态生成的从1,2，...,n
+
+http://jwcxxcx.ccsu.cn/jwxt/jiaowu/cjgl/xszq/query_xscj.jsp
